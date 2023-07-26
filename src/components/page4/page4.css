@@ -1,0 +1,49 @@
+textarea {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  width: 680px;
+  resize: vertical;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+}
+.footerTextarea {
+  display: flex;
+  margin-top: 8px;
+  justify-content: space-between;
+}
+.footerTextarea p {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.48);
+  font-size: 12px;
+}
+.footerTextarea h2 {
+  margin: 0;
+  color: black;
+  font-size: 12px;
+}
+@media (max-width: 1035px) {
+  textarea {
+    width: 500px;
+  }
+  .footerTextarea {
+    width: 500px;
+  }
+}
+@media (max-width: 760px) {
+  textarea {
+    width: 300px;
+  }
+  .footerTextarea {
+    width: 300px;
+  }
+}
+@media (max-width: 460px) {
+  textarea {
+    width: 220px;
+  }
+  .footerTextarea {
+    width: 220px;
+  }
+}

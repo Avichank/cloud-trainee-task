@@ -1,0 +1,117 @@
+@font-face {
+  font-family: SBSansDisplay;
+  src: url("../../fonts/SBSansDisplayRegular.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: SBSansDisplay;
+  src: url("../../fonts/SBSansDisplaySemiBold.woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: SBSansInterface;
+  src: url("../../fonts/SBSansInterface-Regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: SBSansInterface;
+  src: url("../../fonts/SBSansInterface-Semibold.woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  font-family: SBSansInterface;
+}
+body {
+  background-color: #f4f4f5;
+  margin: 0;
+  padding: 0;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #d5e4f7;
+  width: 80px;
+  height: 80px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #212830;
+}
+.name-text {
+  font-size: 20px;
+  margin: 0;
+  color: #333333;
+  font-family: SBSansDisplay;
+  font-weight: 600;
+}
+.text-about {
+  margin-left: 24px;
+}
+.nav {
+  display: flex;
+  margin-top: 8px;
+}
+.nav a {
+  text-decoration: none;
+  color: #5558fa;
+  font-size: 12px;
+}
+.link {
+  margin-right: 17.6px;
+  font-weight: 400;
+  font-size: 12px;
+}
+.link a {
+  margin-left: 5.6px;
+}
+.main-screen.page-1 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.line {
+  height: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  margin-top: 24px;
+}
+.number-place p {
+  margin: 24px 0 8px 0;
+  font-weight: 400;
+  font-size: 14px;
+}
+.number-place input {
+  font-weight: 400;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+input {
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  width: 400px;
+  padding: 12px;
+}
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+.button-page1 {
+  margin-bottom: 291px;
+}
+@media (max-width: 644px) {
+  input {
+    width: 270px;
+  }
+  .nav {
+    display: block;
+  }
+}
+@media (max-width: 446px) {
+  input {
+    width: 200px;
+  }
+}
